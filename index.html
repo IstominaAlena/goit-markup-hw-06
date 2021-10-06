@@ -399,61 +399,65 @@
     <!--Футер-->
     <footer class="bottom-contacts">
       <div class="container footer-container">
-        <div class="address-container">
-          <!--Logo-->
-          <a class="logo second" href="./index.html"><span>Web</span>Studio</a>
+        <div class="left-side-footer">
+          <div class="address-container">
+            <!--Logo-->
+            <a class="logo second" href="./index.html"
+              ><span>Web</span>Studio</a
+            >
 
-          <!--Contacts-->
-          <address class="contacts bottom">
-            <a
-              href="https://goo.gl/maps/XSLMF2wzgLDrQB9y9"
-              class="location lower-contact"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26
-            </a>
-            <a href="mailto:info@devstudio.com" class="lower-contact"
-              >info@devstudio.com
-            </a>
-            <a href="tel:+380961111111" class="lower-contact"
-              >+38 096 111 11 11
-            </a>
-          </address>
-        </div>
+            <!--Contacts-->
+            <address class="contacts bottom">
+              <a
+                href="https://goo.gl/maps/XSLMF2wzgLDrQB9y9"
+                class="location lower-contact"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26
+              </a>
+              <a href="mailto:info@devstudio.com" class="lower-contact"
+                >info@devstudio.com
+              </a>
+              <a href="tel:+380961111111" class="lower-contact"
+                >+38 096 111 11 11
+              </a>
+            </address>
+          </div>
 
-        <!-- Join us -->
-        <div class="join-container">
-          <h2 class="join-title">Присоединяйтесь</h2>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a href="" class="social-link footer-social-link">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/svg/symbol-defs.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link footer-social-link">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/svg/symbol-defs.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link footer-social-link">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/svg/symbol-defs.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link footer-social-link">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/svg/symbol-defs.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <!-- Join us -->
+          <div class="join-container">
+            <h2 class="join-title">Присоединяйтесь</h2>
+            <ul class="social-list list">
+              <li class="social-item">
+                <a href="" class="social-link footer-social-link">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link footer-social-link">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/svg/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link footer-social-link">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link footer-social-link">
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/svg/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <!-- Mailing -->
@@ -546,22 +550,24 @@
             ></textarea>
           </label>
 
-          <input
-            class="hero-check-input visually-hidden"
-            type="checkbox"
-            name="user_policy"
-            required
-            id="user-policy"
-          />
-          <label class="hero-check-label" for="user-policy">
-            <span class="policy-icon-container">
-              <svg class="policy-icon" width="16" height="15">
-                <use href="./images/svg/symbol-defs.svg#check"></use>
-              </svg>
-            </span>
-            Соглашаюсь с рассылкой и принимаю
-            <a href="#" class="policy-link">Условия договора</a>
-          </label>
+          <div class="checkbox-wrapper">
+            <input
+              class="hero-check-input visually-hidden"
+              type="checkbox"
+              name="user_policy"
+              required
+              id="user-policy"
+            />
+            <label class="hero-check-label" for="user-policy">
+              <span class="policy-icon-container">
+                <svg class="policy-icon" width="16" height="15">
+                  <use href="./images/svg/symbol-defs.svg#check"></use>
+                </svg>
+              </span>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="policy-link">Условия договора</a>
+            </label>
+          </div>
 
           <button type="submit" class="hero-form-button button">
             Отправить
